@@ -1,8 +1,8 @@
 import sqlite3
 from PyQt6.QtWidgets import (
     QVBoxLayout, QTableWidget, QGroupBox, QRadioButton, QHBoxLayout,
-    QMainWindow, QPushButton, QHeaderView, QTableWidgetItem, QMessageBox, QPlainTextEdit,
-    QDialog, QApplication, QComboBox, QWidget, QLineEdit
+    QMainWindow, QPushButton, QHeaderView, QTableWidgetItem, QMessageBox,
+    QComboBox, QWidget, QLineEdit, QApplication
 )
 from PyQt6.QtGui import QIcon
 from PyQt6.QtCore import Qt
@@ -48,6 +48,12 @@ class EventsWindow(QMainWindow):
         filters_group.setLayout(filters_layout)
         main_layout.addWidget(filters_group)
 
+        # Connect gender radio buttons to the filter function
+        self.gender_all.toggled.connect(self.filter_rows)
+        self.gender_male.toggled.connect(self.filter_rows)
+        self.gender_female.toggled.connect(self.filter_rows)
+        self.gender_mixed.toggled.connect(self.filter_rows)
+
         # Table Section
         self.table = QTableWidget()
         self.table.setColumnCount(9)
@@ -82,14 +88,21 @@ class EventsWindow(QMainWindow):
         self.load_events_data()
         self.delete_button.clicked.connect(self.delete_selected_row)
 
-    def renumber_event_numbers(self, cursor):
-        try:
-            cursor.execute("SELECT ROWID, event_number FROM events ORDER BY ROWID")
-            rows = cursor.fetchall()
-            for index, (rowid, _) in enumerate(rows, start=1):
-                cursor.execute("UPDATE events SET event_number = ? WHERE ROWID = ?", (index, rowid))
-        except sqlite3.Error as e:
-            print(f"Failed to renumber event numbers: {e}")
+    def filter_rows(self):
+        selected_gender = None
+        if self.gender_male.isChecked():
+            selected_gender = "Male"
+        elif self.gender_female.isChecked():
+            selected_gender = "Female"
+        elif self.gender_mixed.isChecked():
+            selected_gender = "Mixed"
+
+        for row in range(self.table.rowCount()):
+            gender_item = self.table.item(row, 2)  # Assuming Gender is in the 3rd column
+            if selected_gender is None or gender_item.text() == selected_gender:
+                self.table.setRowHidden(row, False)
+            else:
+                self.table.setRowHidden(row, True)
 
     def cell_clicked_action(self, row, column):
         if column == 7:  # Replace the cell with a QLineEdit
@@ -146,14 +159,14 @@ class EventsWindow(QMainWindow):
 
                 for row_idx, row_data in enumerate(rows):
                     for col_idx, col_data in enumerate(row_data):
-                        if col_idx == 5:
+                        if col_idx == 5:  # Number of Rounds column
                             combo_box = QComboBox()
                             combo_box.addItems(combo_box_rounds)
                             combo_box.setCurrentText(str(col_data) if col_data else "Select")
                             combo_box.currentIndexChanged.connect(
                                 partial(self.update_event_round, row_idx, combo_box, rounds_mapping))
                             self.table.setCellWidget(row_idx, col_idx, combo_box)
-                        elif col_idx == 8:
+                        elif col_idx == 8:  # Advancement column
                             adv_combo_box = QComboBox()
                             adv_combo_box.addItems(advancement_options)
                             adv_combo_box.setCurrentText(str(col_data) if col_data else "Select")
@@ -225,12 +238,10 @@ class EventsWindow(QMainWindow):
             with sqlite3.connect(self.db_file_path) as conn:
                 cursor = conn.cursor()
                 cursor.execute("DELETE FROM events WHERE event_number = ?", (event_number,))
-                self.renumber_event_numbers(cursor)
                 conn.commit()
                 self.load_events_data()
         except sqlite3.Error as e:
             QMessageBox.critical(self, "Database Error", f"Failed to delete event:\n{e}")
-
 
 def show_event_window(db_file_path):
     global _events_window_instance
@@ -240,7 +251,6 @@ def show_event_window(db_file_path):
     else:
         _events_window_instance.raise_()
         _events_window_instance.activateWindow()
-
 
 if __name__ == "__main__":
     import sys
