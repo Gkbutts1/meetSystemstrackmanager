@@ -1,0 +1,96 @@
+{
+    "youth": {
+        "male": {
+            "JV14TO18_": {
+                "100m": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "details": {
+                    "maxEventsPerAthlete": "3"
+                },
+                "200m": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "long-jump": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "4x100m-relay": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "101m-hurdles": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                }
+            },
+            "VA14TO18_": {
+                "100m": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "details": {
+                    "maxEventsPerAthlete": "3"
+                },
+                "200m": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "long-jump": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "4x100m-relay": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "4x400m-relay": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "101m-hurdles": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                }
+            }
+        },
+        "female": {
+            "JV14TO18_": {
+                "100m": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "details": {
+                    "maxEventsPerAthlete": "3"
+                },
+                "200m": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "long-jump": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                }
+            },
+            "VA14TO18_": {
+                "100m": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "details": {
+                    "maxEventsPerAthlete": "3"
+                },
+                "200m": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                },
+                "long-jump": {
+                    "maxAthletesPerEvent": null,
+                    "minEntryMarkStandard": ""
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+id,event_name,status,uniqueid,event_code,type
+1,40 Meter Dash,active,40m,40,dash
+2,50 Meter Dash,active,50m,50,dash
+3,55M Meter Dash,active,55m,55,dash
+4,60 Meter Dash,active,60m,60,dash
+5,100 Meter Dash,active,100m,100,dash
+6,200 Meter Dash,active,200m,200,dash
+7,300 Meter Dash,active,300m,300,dash
+8,400 Meter Dash,active,400m,400,dash
+9,800 Meter Run,active,800m,800,run
+10,1000 Meter Run,active,1000m,1000,run
+11,1200 Meter Run,active,1200m,1200,run
+12,1500 Meter Run,active,1500m,1500,run
+13,1600 Meter Run,active,1600m,1600,run
+14,2000 Meter Run,active,2000m,2000,run
+15,2000M Steeple Chase,active,2000m-steeple-chase,2000S,run
+16,3000 Meter Run,active,3000m,3000,run
+17,3200 Meter Run,active,3200m,3200,run
+18,4000 Meter Run,active,4000m,4000,run
+19,5000 Meter Run,active,5000m,5000,run
+20,8000 Meter Run,active,8ko,8000,run
+21,10000 Meter Run,active,10000m,10000,run
+22,Long Jump,active,long-jump,LJ,jump
+23,High Jump,active,high-jump,HJ,jump
+24,Triple Jump,active,triple-jump,TJ,jump
+25,Pole Vault,active,pole-vault,PV,jump
+26,Shot Put,active,shot-put,SP,throw
+27,Discus,active,discus,DT,throw
+28,Ha Mer Throw,active,ha Mer-throw,HT,throw
+29,Weight Throw,active,weight-throw,WT,throw
+30,Javelin,active,javelin,JT,throw
+31,Mini Javelin,active,mini-javelin,JT,throw
+32,Finn Flyer Javelin,active,Finn-Flyer-Javelin,JT,throw
+33,4 X 75 Meter Shuttle Relay,active,75sr,300,relay
+34,4X100M Relay,active,4x100m-relay,400,relay
+35,4X200M Relay,active,4x200m-relay,800,relay
+36,4X400M Relay,active,4x400m-relay,1600,relay
+37,4X800M Relay,active,4x800m-relay,3200,relay
+38,4X1600M Relay,active,4x1600m-relay,6400,relay
+39,100M Shuttle Hurdle Relay,active,100msh-relay,400H,hurdles
+40,110M Shuttle Hurdle Relay,active,110msh-relay,440H,hurdles
+41,800M Sprint Medly,active,800m-sm,800S,relay
+42,1600M Sprint Medly,active,1600m-sm,1600S,relay
+43,4000M Distance Medley,active,4000m-dm,4000D,relay
+44,1600 Middle Medley Relay,active,1600 Mm-relay,1600s,relay
+45,2400 Middle Medley Relay,active,2400 M-dm,2400D,relay
+46,1500M Race Walk,active,1500m-race-walk,1500W,walk
+47,3000M Race Walk,active,3000m-race-walk,3000W,walk
+48,5000M Race Walk,active,5000m-race-walk,5000W,walk
+49,10000M Race Walk,active,10000m-race-walk,10000W,walk
+50,Triathlon,active,triathlon,TRI,multi
+51,Pentathlon,active,pentathlon,OPENT,multi
+52,Heptathlon,active,heptathlon,HEP,multi
+53,Decathlon,active,decathlon,DEC,multi
+54,55M Hurdles,active,55m-hurdles,55H,hurdles
+55,60M Hurdles,active,60m-hurdles,60H,hurdles
+56,75M Hurdles,active,75m-hurdles,75H,hurdles
+57,80M Hurdles,active,80m-hurdles,80H,hurdles
+58,100M Hurdles,active,101m-hurdles,100H,hurdles
+59,110M Hurdles,active,110m-hurdles,110H,hurdles
+60,200M Hurdles,active,201m-hurdles,200H,hurdles
+61,300M Hurdles,active,300m-hurdles,300H,hurdles
+62,400M Hurdles,active,400m-hurdles,400H,hurdles
+64,4 X 60 Meter Shuttle Relay,active,60sr,240,relay
+65,150 Meter Dash,active,150m,150,run
+66,80 Meter Dash,active,80m,80,run
+67,500 Meter Run,active,500m,500,run
+68,600 Meter Run,active,600m,600,run
+69,Octathlon,active,octathlon,OCT,multi
+70,6000 Meter Run,active,6000m,6000,run
+71,40M Hurdles,active,40m-hurdles,40H,hurdles
+72,3 Mile,active,3mile,3MILE,run
+73,8X200M Relay,active,8x200m-relay,1600,relay

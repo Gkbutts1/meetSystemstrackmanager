@@ -1,0 +1,336 @@
+{
+    "ageGroupTemp1": [
+        {
+            "div_num": "1",
+            "name": "5 & 6 Year Old",
+            "ages": "6-May",
+            "from_age": "5",
+            "to_age": "6",
+            "type": "age_group"
+        },
+        {
+            "div_num": "2",
+            "name": "7 & 8 Year Old",
+            "ages": "8-Jul",
+            "from_age": "7",
+            "to_age": "8",
+            "type": "age_group"
+        },
+        {
+            "div_num": "3",
+            "name": "9 & 10 Year Old",
+            "ages": "10-Sep",
+            "from_age": "9",
+            "to_age": "10",
+            "type": "age_group"
+        },
+        {
+            "div_num": "4",
+            "name": "11 & 12 Year Old",
+            "ages": "12-Nov",
+            "from_age": "11",
+            "to_age": "12",
+            "type": "age_group"
+        },
+        {
+            "div_num": "5",
+            "name": "13 & 14 Year Old",
+            "ages": "13-14",
+            "from_age": "13",
+            "to_age": "14",
+            "type": "age_group"
+        },
+        {
+            "div_num": "6",
+            "name": "15 & 16 Year Old",
+            "ages": "15-16",
+            "from_age": "15",
+            "to_age": "16",
+            "type": "age_group"
+        },
+        {
+            "div_num": "7",
+            "name": "17 & 18 Year Old",
+            "ages": "17-18",
+            "from_age": "17",
+            "to_age": "18",
+            "type": "age_group"
+        }
+    ],
+    "ageGroupTemp2": [
+        {
+            "div_num": "1",
+            "name": "8 & Under",
+            "ages": "0-8",
+            "from_age": "0",
+            "to_age": "8",
+            "type": "age_group"
+        },
+        {
+            "div_num": "2",
+            "name": "9 & 10 Year Old",
+            "ages": "10-Sep",
+            "from_age": "9",
+            "to_age": "10",
+            "type": "age_group"
+        },
+        {
+            "div_num": "3",
+            "name": "11 & 12 Year Old",
+            "ages": "2-Nov",
+            "from_age": "11",
+            "to_age": "12",
+            "type": "age_group"
+        },
+        {
+            "div_num": "4",
+            "name": "13 & 14 Year Old",
+            "ages": "13-14",
+            "from_age": "13",
+            "to_age": "14",
+            "type": "age_group"
+        },
+        {
+            "div_num": "5",
+            "name": "15 & 16 Year Old",
+            "ages": "15-16",
+            "from_age": "15",
+            "to_age": "16",
+            "type": "age_group"
+        },
+        {
+            "div_num": "6",
+            "name": "17 & 18 Year Old",
+            "ages": "17-18",
+            "from_age": "17",
+            "to_age": "18",
+            "type": "age_group"
+        },
+        {
+            "div_num": "7",
+            "name": "Open",
+            "ages": "19-34",
+            "from_age": "19",
+            "to_age": "34",
+            "type": "age_group"
+        },
+        {
+            "div_num": "8",
+            "name": "Masters",
+            "ages": "35-120",
+            "from_age": "35",
+            "to_age": "120",
+            "type": "age_group"
+        }
+    ],
+    "ageGroupTemp3": [
+        {
+            "div_num": "1",
+            "name": "4 & Under",
+            "ages": "0-4",
+            "from_age": "0",
+            "to_age": "4",
+            "type": "age_group"
+        },
+        {
+            "div_num": "2",
+            "name": "5 Year Old",
+            "ages": "5-May",
+            "from_age": "5",
+            "to_age": "5",
+            "type": "age_group"
+        },
+        {
+            "div_num": "3",
+            "name": "6 Year Old",
+            "ages": "6-Jun",
+            "from_age": "6",
+            "to_age": "6",
+            "type": "age_group"
+        },
+        {
+            "div_num": "4",
+            "name": "7 Year Old",
+            "ages": "7-Jul",
+            "from_age": "7",
+            "to_age": "7",
+            "type": "age_group"
+        },
+        {
+            "div_num": "5",
+            "name": "8 Year Old",
+            "ages": "8-Aug",
+            "from_age": "8",
+            "to_age": "8",
+            "type": "age_group"
+        },
+        {
+            "div_num": "6",
+            "name": "9 Year Old",
+            "ages": "9-Sep",
+            "from_age": "9",
+            "to_age": "9",
+            "type": "age_group"
+        },
+        {
+            "div_num": "7",
+            "name": "10 Year Old",
+            "ages": "10-Oct",
+            "from_age": "10",
+            "to_age": "10",
+            "type": "age_group"
+        },
+        {
+            "div_num": "8",
+            "name": "11 Year Old",
+            "ages": "11-Nov",
+            "from_age": "11",
+            "to_age": "11",
+            "type": "age_group"
+        },
+        {
+            "div_num": "9",
+            "name": "12 Year Old",
+            "ages": "12-Dec",
+            "from_age": "12",
+            "to_age": "12",
+            "type": "age_group"
+        },
+        {
+            "div_num": "10",
+            "name": "13 Year Old",
+            "ages": "13-13",
+            "from_age": "13",
+            "to_age": "13",
+            "type": "age_group"
+        },
+        {
+            "div_num": "11",
+            "name": "14 Year Old",
+            "ages": "14-14",
+            "from_age": "14",
+            "to_age": "14",
+            "type": "age_group"
+        },
+        {
+            "div_num": "12",
+            "name": "15 & 16 Year Old",
+            "ages": "15-16",
+            "from_age": "15",
+            "to_age": "16",
+            "type": "age_group"
+        },
+        {
+            "div_num": "13",
+            "name": "17 & 18 Year Old",
+            "ages": "17-18",
+            "from_age": "17",
+            "to_age": "18",
+            "type": "age_group"
+        },
+        {
+            "div_num": "14",
+            "name": "Open",
+            "ages": "19-34",
+            "from_age": "19",
+            "to_age": "34",
+            "type": "age_group"
+        },
+        {
+            "div_num": "15",
+            "name": "Masters",
+            "ages": "35-120",
+            "from_age": "35",
+            "to_age": "120",
+            "type": "age_group"
+        }
+    ],
+    "gradeSchoolTemp": [
+        {
+            "div_num": "1",
+            "name": "1st Grade",
+            "type": "gradeSchool"
+        },
+        {
+            "div_num": "2",
+            "name": "2nd Grade",
+            "type": "gradeSchool"
+        },
+        {
+            "div_num": "3",
+            "name": "3rd Grade",
+            "type": "gradeSchool"
+        },
+        {
+            "div_num": "4",
+            "name": "4th Grade",
+            "type": "gradeSchool"
+        },
+        {
+            "div_num": "5",
+            "name": "5th Grade",
+            "type": "gradeSchool"
+        },
+        {
+            "div_num": "6",
+            "name": "6th Grade",
+            "type": "gradeSchool"
+        }
+    ],
+    "highSchoolTemp1": [
+        {
+            "div_num": "1",
+            "name": "Soph-Frosh",
+            "type": "highSchool"
+        },
+        {
+            "div_num": "2",
+            "name": "Junior Varsity",
+            "type": "highSchool"
+        },
+        {
+            "div_num": "3",
+            "name": "Varsity",
+            "type": "highSchool"
+        }
+    ],
+    "highSchoolTemp2": [
+        {
+            "div_num": "1",
+            "name": "Freshman",
+            "type": "highSchool"
+        },
+        {
+            "div_num": "2",
+            "name": "Sophmore",
+            "type": "highSchool"
+        },
+        {
+            "div_num": "3",
+            "name": "Junior",
+            "type": "highSchool"
+        },
+        {
+            "div_num": "4",
+            "name": "Senior",
+            "type": "highSchool"
+        }
+    ],
+    "middleSchoolTemp": [
+        {
+            "div_num": "1",
+            "name": "7th Grade",
+            "type": "middleSchool"
+        },
+        {
+            "div_num": "2",
+            "name": "8th Grade",
+            "type": "middleSchool"
+        },
+        {
+            "div_num": "3",
+            "name": "9th Grade",
+            "type": "middleSchool"
+        }
+    ]
+}
